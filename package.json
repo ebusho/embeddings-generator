@@ -1,0 +1,20 @@
+{
+  "name": "embeddings-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "author": "Alis Adrovic",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "fastembed": "^1.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
